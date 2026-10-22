@@ -1,0 +1,38 @@
+<svg width="1100" height="320" viewBox="0 0 1100 320" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text { font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace; font-size: 20px; }
+    .pr { fill: #22D3EE; }
+    .cm { fill: #C084FC; }
+    .st { fill: #86EFAC; }
+    .tx { fill: #E2E8F0; }
+    .ar { fill: #FBBF24; }
+    .c  { fill: #94A3B8; }
+    .l  { opacity: 0; animation: in 0.5s ease forwards; }
+    @keyframes in { from { opacity: 0; transform: translateX(-12px); } to { opacity: 1; transform: translateX(0); } }
+    .cursor { animation: blink 1s steps(2) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .dot { animation: pulse 2s ease-in-out infinite; }
+    @keyframes pulse { 50% { opacity: 0.3; } }
+  </style>
+
+  <rect width="1100" height="320" rx="14" fill="#0B1220"/>
+  <rect x="0.5" y="0.5" width="1099" height="319" rx="14" fill="none" stroke="#22D3EE" stroke-opacity="0.35"/>
+
+  <circle cx="28" cy="24" r="7" fill="#FF5F56"/>
+  <circle cx="52" cy="24" r="7" fill="#FFBD2E"/>
+  <circle cx="76" cy="24" r="7" fill="#27C93F"/>
+  <text x="550" y="30" text-anchor="middle" style="font-size:14px" class="c">contact.sh</text>
+  <line x1="0" y1="48" x2="1100" y2="48" stroke="#1F2937"/>
+
+  <circle class="dot" cx="905" cy="25" r="5" fill="#27C93F"/>
+  <text x="920" y="30" style="font-size:14px" fill="#86EFAC">open to work</text>
+
+  <text class="l" style="animation-delay:0.3s" x="40" y="100"><tspan class="pr">$</tspan><tspan x="66" class="cm">echo </tspan><tspan class="st">"Have a project, internship, or idea to collaborate on?"</tspan></text>
+  <text class="l" style="animation-delay:0.9s" x="40" y="136"><tspan class="ar">&gt;</tspan><tspan x="66" class="tx">Let's build something together.</tspan></text>
+
+  <text class="l" style="animation-delay:1.5s" x="40" y="190"><tspan class="pr">$</tspan><tspan x="66" class="cm">mail </tspan><tspan class="c">--to </tspan><tspan class="st">hussnain.stack@gmail.com</tspan></text>
+  <text class="l" style="animation-delay:2.1s" x="40" y="226"><tspan class="pr">$</tspan><tspan x="66" class="cm">open </tspan><tspan class="st">https://hussnainali-portfolio.vercel.app</tspan></text>
+
+  <text class="l" style="animation-delay:2.6s" x="40" y="280"><tspan class="pr">$</tspan></text>
+  <rect class="cursor" x="66" y="263" width="11" height="22" fill="#22D3EE"/>
+</svg>
