@@ -106,12 +106,21 @@ Full-stack e-commerce app with authentication, product management, and a respons
 
 ## `> ./contact.sh`
 
-```bash
-$ echo "Have a project, internship, or idea to collaborate on?"
-> Let's build something together.
+<div align="center">
 
-$ mail --to hussnain.stack@gmail.com
-```
+<img src="./assets/contact.svg" alt="Have a project, internship, or idea to collaborate on? Let's build something together. Email: hussnain.stack@gmail.com" width="100%" />
+
+<br /><br />
+
+<a href="mailto:hussnain.stack@gmail.com"><img src="https://img.shields.io/badge/SEND_AN_EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://www.linkedin.com/in/hussnain-ali-01161a3a0/"><img src="https://img.shields.io/badge/CONNECT_ON_LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://hussnainali-portfolio.vercel.app/"><img src="https://img.shields.io/badge/VIEW_PORTFOLIO-0E7490?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+
+<br /><br />
+
+<img src="./assets/footer.svg" alt="Code · Create · Innovate" width="100%" />
+
+</div>
 
 <div align="center">
 
