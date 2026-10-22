@@ -1,1 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111827"/><stop offset="1" stop-color="#081b25"/></linearGradient><radialGradient id="gl"><stop stop-color="#0891b2" stop-opacity=".34"/><stop offset="1" stop-color="#0891b2" stop-opacity="0"/></radialGradient></defs><rect width="100%" height="100%" rx="22" fill="url(#g)"/><circle cx="1050" cy="120" r="300" fill="url(#gl)"/><path d="M700 0L420 360M850 0L570 360" stroke="#67E8F9" stroke-opacity=".09" stroke-width="2"/><text x="64" y="75" font-family="Arial,sans-serif" font-size="20" letter-spacing="5" fill="#67E8F9">HELLO, I’M</text><text x="60" y="155" font-family="Arial,sans-serif" font-size="68" font-weight="800" fill="white">Hussnain <tspan fill="#67E8F9">Ali</tspan></text><text x="64" y="202" font-family="Arial,sans-serif" font-size="30" fill="#67E8F9">Full Stack Developer</text><text x="64" y="248" font-family="Arial,sans-serif" font-size="19" fill="#d1d5db">Next.js  •  React  •  MERN Stack  •  Modern Web Experiences</text><rect x="64" y="279" width="280" height="44" rx="12" fill="#67E8F9"/><text x="90" y="308" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#082f49">CODE  •  CREATE  •  INNOVATE</text><circle cx="990" cy="180" r="115" fill="none" stroke="#67E8F9" stroke-opacity=".45" stroke-width="2"/><circle cx="990" cy="180" r="88" fill="#0b2632"/><text x="922" y="205" font-family="monospace" font-size="76" font-weight="700" fill="#67E8F9">&lt;/&gt;</text></svg>
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#0F2A3A"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" x2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace; }
+    .line { opacity: 0; animation: in 0.7s ease forwards; }
+    .d1 { animation-delay: 0.3s; }
+    .d2 { animation-delay: 0.9s; }
+    .d3 { animation-delay: 1.5s; }
+    .d4 { animation-delay: 2.1s; }
+    @keyframes in {
+      from { opacity: 0; transform: translateX(-14px); }
+      to   { opacity: 1; transform: translateX(0); }
+    }
+    .cursor { animation: blink 1s steps(2) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .ring { animation: pulse 3s ease-in-out infinite; }
+    @keyframes pulse { 50% { stroke-opacity: 0.15; } }
+  </style>
+
+  <rect width="1200" height="320" rx="16" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="1199" height="319" rx="16" fill="none" stroke="#22D3EE" stroke-opacity="0.4"/>
+
+  <circle cx="30" cy="24" r="7" fill="#FF5F56"/>
+  <circle cx="54" cy="24" r="7" fill="#FFBD2E"/>
+  <circle cx="78" cy="24" r="7" fill="#27C93F"/>
+  <text x="600" y="29" text-anchor="middle" font-size="14" fill="#94A3B8">hussnain@dev: ~</text>
+  <line x1="0" y1="48" x2="1200" y2="48" stroke="#1F2937"/>
+
+  <text class="line d1" x="60" y="105" font-size="22" fill="#E2E8F0"><tspan fill="#22D3EE">$</tspan> whoami</text>
+  <text class="line d2" x="60" y="180" font-size="66" font-weight="700" fill="url(#name)">Hussnain Ali</text>
+  <rect class="cursor" x="560" y="130" width="20" height="56" fill="#22D3EE"/>
+  <text class="line d3" x="60" y="228" font-size="25" fill="#67E8F9">&gt; Full Stack Developer · Next.js · React · Node.js · MongoDB</text>
+  <text class="line d4" x="60" y="275" font-size="18" fill="#94A3B8">// BS Software Engineering @ NUML Faisalabad · Open to internships &amp; freelance work</text>
+
+  <circle class="ring" cx="1050" cy="180" r="85" fill="none" stroke="#22D3EE" stroke-opacity="0.5" stroke-width="3"/>
+  <text x="1050" y="202" text-anchor="middle" font-size="60" font-weight="700" fill="#22D3EE">&lt;/&gt;</text>
+</svg>
