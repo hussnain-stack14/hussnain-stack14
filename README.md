@@ -1,10 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,45:0E7490,100:22D3EE&height=240&section=header&text=Hussnain%20Ali&fontSize=60&fontColor=FFFFFF&fontAlignY=36&desc=Full%20Stack%20Developer%20%7C%20Next.js%20%26%20MERN&descSize=20&descAlignY=58&animation=fadeIn" width="100%" alt="Hussnain Ali" />
-
-<a href="https://github.com/hussnain-stack14">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=0E7490&center=true&vCenter=true&width=700&lines=%3E+Building+real-time+web+apps;%3E+Next.js+%7C+React+%7C+Node.js+%7C+MongoDB;%3E+Final+year+SE+student+%40+NUML;%3E+Open+to+internships+%26+freelance+work" alt="Typing animation" />
-</a>
+<img src="./assets/hero.svg" alt="Hussnain Ali | Full Stack Developer" width="100%" />
 
 <br /><br />
 
