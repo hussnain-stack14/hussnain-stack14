@@ -14,19 +14,9 @@
 
 ## `> whoami`
 
-```js
-const hussnain = {
-  role: "Full Stack Developer",
-  education: "BS Software Engineering @ NUML Faisalabad",
-  stack: ["Next.js", "React", "Node.js", "Express", "MongoDB"],
-  building: "Smart Safar: real-time transit tracking for Faisalabad",
-  developing: "Crease: offline-first cricket scoring PWA",
-  exploring: ["AWS", "CI/CD", "Cloud Deployment"],
-  openTo: ["Internships", "Collaboration", "Freelance projects"],
-};
-```
-
-<br />
+<div align="center">
+<img src="./assets/whoami.svg" alt="Hussnain Ali: Full Stack Developer, BS Software Engineering student at NUML Faisalabad. Stack: Next.js, React, Node.js, Express, MongoDB. Open to internships, collaboration, and freelance projects." width="100%" />
+</div>
 
 ## `> cat skills.json`
 
